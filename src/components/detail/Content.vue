@@ -2,6 +2,7 @@
   <div class="container">
     <img src="" alt="">
     <h2>{{ data.name }}</h2>
+
   </div>
 </template>
 
@@ -15,8 +16,6 @@
       }
     }
   }
-  
-  // watch the changes in the data varualve
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

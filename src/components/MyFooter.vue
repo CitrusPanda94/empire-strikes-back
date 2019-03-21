@@ -1,7 +1,9 @@
 <template>
+<div class="footer">
   <p>
     Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research. Fair use is a use permitted by copyright statute
     that might otherwise be infringing.</p>
+    </div>
 </template>
 
 <script>
@@ -16,5 +18,10 @@
     width: 60%;
     margin: 0 auto;
     padding: 40px;
+    color: #ffffff;
   }
+  .footer {
+    background-color: #222222;
+  }
+
 </style>

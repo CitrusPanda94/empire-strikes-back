@@ -7,11 +7,13 @@
 
 <script>
 import MyHeader from "../MyHeader"
+import Content from "./Content"
 
 export default {
   name: "Detail",
   components: {
-    MyHeader
+    MyHeader,
+    Content
   },
   data: function() {
     return {
@@ -27,7 +29,6 @@ export default {
         .get("https://swapi.co/api/" + this.searchQuery)
         .then(function(data) {
           this.data = data;
-          
         });
     }
   }
