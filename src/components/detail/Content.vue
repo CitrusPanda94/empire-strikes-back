@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-    <img src="" alt="">
-    <h2>{{ data.name }}</h2>
-
+    <h1>Detail</h1>
+    <Content v-bind:contentdata="contentdata"/>
   </div>
 </template>
 
@@ -16,9 +15,15 @@
       }
     }
   }
+  
 </script>
+<!-- <h2>{{ data.name }}</h2> -->
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.info h2, p {
+  text-align: left;
+  margin-bottom: 20px;
+}
   
 </style>
